@@ -1,10 +1,13 @@
 <script setup>
 const { loading, kids, fetchKidsData } = useBucket()
-console.log(loading)
-console.log('Kids Array', kids)
+
+
+
+const { data } = useAsyncData('class', () => $fetch('/api/class'))
+console.log(data)
 definePageMeta({
   title: 'Playground',
-  layout: "admin"
+  layout: "default"
 })
 </script>
 <template>
