@@ -2,11 +2,12 @@ export interface Coursework {
 	id: number;
 	title: string;
 	description: string;
+	questions: string[];
 	imgUrl?: string;
 	score: number;
 	scoreRecieved: number;
 	solution?: boolean;
-	answer?: string;
+	answer?: string[];
 }
 
 

@@ -1,0 +1,7 @@
+{ 
+	"message": "sucss", 
+	"data": { 
+		"homeworks": [ 
+			{ "id": 1, "created_at": "2022-04-27T01:36:42+00:00", "title": "Statistics: Presenting Data", "description": "This is a tes ", 
+			"questions": [ "How many sides?" ], "imgUrl": null, "score": 30, "solution": null, "answer": null, "updated_at": null, "duration": 40, "number_of_tries": 2 } ], 
+		"courseworks": [ { "id": "2d17b8bd-2c01-41fa-b93f-f86a0402271a", "created_at": "2022-04-26T22:35:01+00:00", "title": "Perimeter", "description": "This is a test", "questions": [ "How many sides does a square have?", "Make a circle?" ], "imgUrl": null, "score": 30, "solution": false, "answers": null } ], "tests": [], "projects": [] } }
